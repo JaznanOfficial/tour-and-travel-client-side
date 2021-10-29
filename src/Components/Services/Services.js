@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Service from '../Service/Service';
+import './Services.css'
 
 
 
