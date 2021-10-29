@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import './Navigation.css';
 import logo from './travel.jpg'
 
@@ -13,7 +13,7 @@ const Navigation = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className='navigation-link'>Home</Nav.Link>
-              <Nav.Link href="#link" className='navigation-link'>Link</Nav.Link>
+              <Nav.Link href="#link" className='navigation-link'><Button variant="outline-light">Log In</Button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
