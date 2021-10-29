@@ -15,6 +15,7 @@ const Navigation = () => {
             <Nav className="ms-auto">
               <Link to='/home' className='navigation-link'>Home</Link>
               <Link to='/my-booked' className='navigation-link'>My Booked</Link>
+              <Link to='/addNewService' className='navigation-link'>Add a Service</Link>
               <Link to='/login' className='navigation-link'><Button variant="outline-light">Log In</Button></Link>
             </Nav>
           </Navbar.Collapse>
