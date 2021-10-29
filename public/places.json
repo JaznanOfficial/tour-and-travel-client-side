@@ -4,42 +4,48 @@
       "img":"https://www.daily-bangladesh.com/media/imgAll/2020June/en/Guthia-Mosque-2010100737.jpg",
       "PlaceName": "Guthiya Mosque",
       "CityName": "Barishal",
-      "price":"3000 $"
+      "price":"3000 $",
+      "placeDetails":"The Baitul Aman Jame Masjid Complex (Bengali: বাইতুল আমান জামে মসজিদ, Arabic: بيت الأمان جامع مسجد‎), commonly known as Guthia Mosque (Bengali: গুঠিয়া মসজিদ) of Barisal, is a mosque complex of Bangladesh having a land area of 14 acres, comparing to the 8.30 acres land area of the national mosque Baitul Mukarram of the country.[1][2] The Baitul Aman Jame Masjid Complex consists of a mosque, a large eidgah, a graveyard, three lakes, a madrasa and an orphanage.[2] Established on December 16, 2003, Guthia Mosque is also a tourist spot in Bangladesh"
     },
     {
       "PlaceId": "2",
       "img":"https://i.pinimg.com/originals/4e/21/9e/4e219e7b6c2ac8c5b85e7fe7e22a8f28.jpg",
       "PlaceName": "Chittagong Hill Track",
       "CityName": "Chittagong",
-      "price":"2000 $"
+      "price":"2000 $",
+      "placeDetails":"The Chittagong Hill Tracts Bengali পার্বত্য চট্টগ্রাম, romanized Parbotto Chottogram, often shortened to simply the Hill Tracts and abbreviated to CHT, are group of districts within the Chittagong Division in southeastern Bangladesh, bordering India and Myanmar Burma. Covering 13,295 square kilometres 5,133 sq mi, they formed a single district until 1984, when they were divided into three districts: Khagrachari District, Rangamati Hill District, and Bandarban District."
     },
     {
       "PlaceId": "3",
       "img":"https://cdn.getyourguide.com/img/tour/5728ce3b7284b.jpeg/146.jpg",
       "PlaceName": "Sylhet Ratar Gul swapm forest & Bishanakandi",
       "CityName": "Sylhet",
-      "price":"2500 $"
+      "price":"2500 $",
+      "placeDetails":"Bichnakandi is a quarry spot that is used to collect rocks from the riverbed.[4] It is the place where many layers of the Khasi mountains from both sides meet at one point. Fountains from the Khasi Hills make a lake that is connected to Piyain River. The rocks are also natural and come down with water streams from the mountains. It is one of the most visited tourist spots in Bangladesh.[citation needed] This place is alongside Bangladesh-India border and has two tectonic plates on the verge of colliding.[citation needed] Geologist also have proved that these kinds of places in Earth have a high rate of earthquakes. Same can be told for Jaflong, Lalakhal, Manipur, and San Andreas Fault."
     },
     {
       "PlaceId": "4",
       "img":"https://dailyasianage.com/library/1582060099_9.jpg",
       "PlaceName": "Shundorbon",
       "CityName": "Khulna",
-      "price":"1800 $"
+      "price":"1800 $",
+      "placeDetails":"Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh's division of Khulna. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is intersected by multiple tidal streams and channels. Four protected areas in the Sundarbans are enlisted as UNESCO World Heritage Sites, viz. Sundarbans National Park, Sundarbans West, Sundarbans South and Sundarbans East Wildlife Sanctuaries"
     },
     {
       "PlaceId": "5",
       "img":"https://www.bdtradeinfo.com/public/assets/images/moinamati.jpg",
       "PlaceName": "Paharpur Budh Bihar",
       "CityName": "Kumilla",
-      "price":"1500 $"
+      "price":"1500 $",
+      "placeDetails":"Somapura Mahavihara (Bengali: সোমপুর মহাবিহার, romanized: Shompur Môhabihar) in Paharpur, Badalgachhi, Naogaon, Bangladesh is among the best known viharas, monasteries, in the Indian Subcontinent and is one of the most important archaeological sites in the country. It is also one of the earliest sites of Bengal, where significant numbers of Hindu statues were found. It was designated as a UNESCO World Heritage Site in 1985. It is one of the most famous examples of architecture in pre-Islamic Bangladesh. It dates from a period to the nearby Halud Vihara and to the Sitakot Vihara in Nawabganj Upazila of Dinajpur District."
     },
     {
       "PlaceId": "6",
       "img":"https://www.localguidesconnect.com/t5/image/serverpage/image-id/453740i3BEBFFD5F1FB5CC6/image-size/large?v=v2&px=999",
       "PlaceName": "Khoiyachori Water Fall",
       "CityName": "Noakhali",
-      "price":"2000 $"
+      "price":"2000 $",
+      "placeDetails":"Khoiyachora Waterfall is a hilly waterfall which is situated on the hills of Mirsharai, Chittagong, Bangladesh . Among many other waterfalls in Mirsarai upazila, such as Komoldoho Waterfall, Napittachora Waterfall, Napittachora Waterfall, Sahasradhara Waterfall, Jharjhari Waterfall etc., Khoiyachora waterfall and its corridor is one of the largest in this hilly belt.[1] The Khoiyachora waterfall has a total of seven major waterfalls (cascade) and many isolated steps.[2][3] Since the location of the fountain is in Khoiyachora union of Mirsarai Upazila, the waterfall has been named 'Khoiyachora Waterfall'."
     }
     
   ]

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 import logo from './travel.jpg'
 
@@ -12,8 +13,9 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className='navigation-link'>Home</Nav.Link>
-              <Nav.Link href="#link" className='navigation-link'><Button variant="outline-light">Log In</Button></Nav.Link>
+              <Link to='/home' className='navigation-link'>Home</Link>
+              <Link to='/my-booked' className='navigation-link'>My Booked</Link>
+              <Link to='/login' className='navigation-link'><Button variant="outline-light">Log In</Button></Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
