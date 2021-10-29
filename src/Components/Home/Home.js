@@ -1,5 +1,6 @@
 import React from 'react';
 import ExtraOne from '../ExtraSection-1/ExtraOne';
+import ExtraTwo from '../ExtraSection-2/ExtraTwo';
 
 import Header from '../Header/Header';
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Header></Header>
             <Services></Services>
             <ExtraOne></ExtraOne>
+            <ExtraTwo></ExtraTwo>
 
         </div>
     );
