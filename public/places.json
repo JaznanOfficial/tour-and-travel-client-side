@@ -1,0 +1,45 @@
+[
+    {
+      "PlaceId": "1",
+      "img":"https://www.daily-bangladesh.com/media/imgAll/2020June/en/Guthia-Mosque-2010100737.jpg",
+      "PlaceName": "Guthiya Mosque",
+      "CityName": "Barishal",
+      "price":"3000 $"
+    },
+    {
+      "PlaceId": "2",
+      "img":"https://i.pinimg.com/originals/4e/21/9e/4e219e7b6c2ac8c5b85e7fe7e22a8f28.jpg",
+      "PlaceName": "Chittagong Hill Track",
+      "CityName": "Chittagong",
+      "price":"2000 $"
+    },
+    {
+      "PlaceId": "3",
+      "img":"https://cdn.getyourguide.com/img/tour/5728ce3b7284b.jpeg/146.jpg",
+      "PlaceName": "Sylhet Ratar Gul swapm forest & Bishanakandi",
+      "CityName": "Sylhet",
+      "price":"2500 $"
+    },
+    {
+      "PlaceId": "4",
+      "img":"https://dailyasianage.com/library/1582060099_9.jpg",
+      "PlaceName": "Shundorbon",
+      "CityName": "Khulna",
+      "price":"1800 $"
+    },
+    {
+      "PlaceId": "5",
+      "img":"https://www.bdtradeinfo.com/public/assets/images/moinamati.jpg",
+      "PlaceName": "Paharpur Budh Bihar",
+      "CityName": "Kumilla",
+      "price":"1500 $"
+    },
+    {
+      "PlaceId": "6",
+      "img":"https://www.localguidesconnect.com/t5/image/serverpage/image-id/453740i3BEBFFD5F1FB5CC6/image-size/large?v=v2&px=999",
+      "PlaceName": "Khoiyachori Water Fall",
+      "CityName": "Noakhali",
+      "price":"2000 $"
+    }
+    
+  ]

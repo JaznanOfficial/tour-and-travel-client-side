@@ -1,0 +1,7 @@
+.header{
+    background-image: url(./header-travel.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
