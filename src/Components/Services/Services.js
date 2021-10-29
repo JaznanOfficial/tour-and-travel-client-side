@@ -18,7 +18,7 @@ const Services = () => {
             <h2 className='text-danger'>Our Tour Packages</h2>
             <h4 className='text-secondary'>(It's always very Romantic and enjoyable...)</h4>
             </div>
-            <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={3} className="g-4">
                 {
                     tourPackages.map(tourPackage => <Service
                         key={tourPackage.PlaceId}
