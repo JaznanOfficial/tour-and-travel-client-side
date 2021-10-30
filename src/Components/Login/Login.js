@@ -8,7 +8,13 @@ import './Login.css'
 
 
 const Login = () => {
-  const {signInUsingGoogle} = useAuth()
+  const { signInUsingGoogle } = useAuth()
+  const signIn = () => {
+    signInUsingGoogle()
+      .then((result) => {
+  
+  })
+  }
     return (
         <div className='my-5'>
             <div className="d-grid mb-2 justify-content-center align-items-center text-center">
@@ -16,7 +22,7 @@ const Login = () => {
             <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6IrIk4SLn7-Uc5g0gE28o3vL1XBYjXgLEzFglZn4SABYEzDppXBSEhtma8d2CA7C_d4&usqp=CAU" width='200px' />
             <Card.Body>
             <button 
-            onClick={signInUsingGoogle}
+            onClick={signIn}
             className="btn btn-google btn-login text-uppercase fw-bold btn-outline-danger"
             type="submit"
           >

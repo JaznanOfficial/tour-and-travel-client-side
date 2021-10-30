@@ -19,9 +19,10 @@ const Navigation = () => {
               <Link to='/my-booked' className='navigation-link'>My Booked</Link>
               <Link to='/addNewService' className='navigation-link'>Add a Service</Link>
                 {user?.email ?
-                  <Button variant="outline-light" onClick={logOut}>Log Out</Button>:
+                  <div className='d-flex flex-row'> <h3 className='text-light'><i class="fas fa-user-tie text-light bold"></i>{user.displayName}</h3> &nbsp; &nbsp; <Button variant="outline-light" onClick={logOut}>Log Out</Button> </div>
+                  :
                   <Link to='/login' className='navigation-link'><Button variant="outline-light">Log In</Button></Link>}
-                {user?.displayName}
+                
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -11,17 +11,16 @@ import initializeConfig from '../Firebase/Firebase.init';
 
 initializeConfig();
 const useFirebase = () => {
-    const provider = new GoogleAuthProvider();
+    
     const auth = getAuth();
 
     const [user, setUser] = useState({});
 
     const signInUsingGoogle = () => {
-      return  signInWithPopup(auth, provider)
-        .then((result) => {
-            setUser(result.user);
-        })
-}
+        const provider = new GoogleAuthProvider();
+        return signInWithPopup(auth, provider)
+        
+    }
 
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
@@ -33,21 +32,21 @@ const useFirebase = () => {
             }
         });
         return () => unsubscribed;
-    },[])
+    }, [])
     
     
     const logOut = () => {
         signOut(auth)
             .then(() => {
             
-        })
+            })
     }
 
-    return (
+    return {
         user,
         signInUsingGoogle,
         logOut
-    );
+};
 };
 
 export default useFirebase;
