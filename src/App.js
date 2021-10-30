@@ -8,24 +8,27 @@ import Login from './Components/Login/Login';
 import BookingProcess from './Components/BookingProcess/BookingProcess';
 import MyBooked from './Components/MyBooked/MyBooked';
 import AddNewService from './Components/AddNewService/AddNewService';
+import AuthProvider from './Contexts/AuthProvider';
 
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
-        <Navigation></Navigation>
-        <Switch>
-        <Route exact path='/'><Home></Home></Route>
-          <Route exact path='/home'><Home></Home></Route>
-          <Route exact path='/my-booked'><MyBooked></MyBooked></Route>
-          <Route exact path='/addNewService'><AddNewService></AddNewService></Route>
-          <Route exact path='/login'><Login></Login></Route>
-          <Route exact path='/booking-process/:bookingId'><BookingProcess></BookingProcess></Route>
-          
-        </Switch>
-        <Footer></Footer>
-      </BrowserRouter>
+      <Navigation></Navigation>
+      <Switch>
+      <Route exact path='/'><Home></Home></Route>
+        <Route exact path='/home'><Home></Home></Route>
+        <Route exact path='/my-booked'><MyBooked></MyBooked></Route>
+        <Route exact path='/addNewService'><AddNewService></AddNewService></Route>
+        <Route exact path='/login'><Login></Login></Route>
+        <Route exact path='/booking-process/:bookingId'><BookingProcess></BookingProcess></Route>
+        
+      </Switch>
+      <Footer></Footer>
+    </BrowserRouter>
+      </AuthProvider>
       
       
     </div>
