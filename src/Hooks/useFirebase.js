@@ -20,7 +20,7 @@ const useFirebase = () => {
         console.log('signing in...');
       return  signInWithPopup(auth, provider)
         .then((result) => {
-           
+           console.log('signing in...');
             setUser(result.user);
         })
 }
