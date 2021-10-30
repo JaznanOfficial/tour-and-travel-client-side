@@ -9,15 +9,21 @@ import './Login.css'
 
 
 const Login = () => {
-  const { signInUsingGoogle } = useAuth()
+  const { signInUsingGoogle,setIsLoading } = useAuth()
   const history = useHistory();
   const location = useLocation();
   const redirectUri = location.state?.from || '/home';
   const signIn = () => {
     signInUsingGoogle()
       .then((result) => {
+        setIsLoading(true)
   history.push(redirectUri)
-  })
+      })
+    .finally (
+      () => {
+        setIsLoading(false)
+      }
+    )
   }
   
     return (
