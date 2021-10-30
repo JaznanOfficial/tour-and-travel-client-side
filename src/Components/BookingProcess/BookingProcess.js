@@ -9,7 +9,7 @@ const BookingProcess = () => {
     console.log(bookingId);
     const [booking, setBooking] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/places")
+        fetch("https://floating-brushlands-96149.herokuapp.com/places")
             .then((res) => res.json())
             .then((data) => setBooking(data[`${bookingId}` - 1]));
     }, []);

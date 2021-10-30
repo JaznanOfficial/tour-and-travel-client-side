@@ -8,7 +8,7 @@ import './Services.css'
 const Services = () => {
     const [tourPackages, setTourPackages] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/places')
+        fetch('https://floating-brushlands-96149.herokuapp.com/places')
             .then(res => res.json())
             .then(data => setTourPackages(data));
     },[])
