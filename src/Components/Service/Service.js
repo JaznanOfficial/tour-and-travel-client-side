@@ -5,7 +5,6 @@ import './Service.css'
 
 const Service = (props) => {
     const { img, PlaceName, CityName, price,PlaceId,placeDetails } = props.tourPackage;
-    console.log(props.tourPackage);
     return (
         <div>
             <Col>

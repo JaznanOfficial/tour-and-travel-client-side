@@ -14,7 +14,7 @@ const AddNewService = () => {
     }
     return (
         <div>
-            <h1 className='text-danger text-center'>Add a place for booking</h1>
+            <h1 className='text-danger text-center'>Add a new place to tour next time</h1>
         <div className="d-flex justify-content-center align-items-center add-service">
             <div className="w-50 me-5 my-3">
             <form onSubmit={handleSubmit(onSubmit)}>

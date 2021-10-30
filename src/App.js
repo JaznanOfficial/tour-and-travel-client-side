@@ -9,6 +9,7 @@ import BookingProcess from './Components/BookingProcess/BookingProcess';
 import MyBooked from './Components/MyBooked/MyBooked';
 import AddNewService from './Components/AddNewService/AddNewService';
 import AuthProvider from './Contexts/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
       <Switch>
       <Route exact path='/'><Home></Home></Route>
         <Route exact path='/home'><Home></Home></Route>
-        <Route exact path='/my-booked'><MyBooked></MyBooked></Route>
-        <Route exact path='/addNewService'><AddNewService></AddNewService></Route>
+        <PrivateRoute exact path='/my-booked'><MyBooked></MyBooked></PrivateRoute>
+        <PrivateRoute exact path='/addNewService'><AddNewService></AddNewService></PrivateRoute>
+        <PrivateRoute exact path='/booking-process/:bookingId'><BookingProcess></BookingProcess></PrivateRoute>
         <Route exact path='/login'><Login></Login></Route>
-        <Route exact path='/booking-process/:bookingId'><BookingProcess></BookingProcess></Route>
         
       </Switch>
       <Footer></Footer>

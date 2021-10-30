@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { useHistory, useLocation } from "react-router";
 import useAuth from "../../Hooks/useAuth";
 
 import './Login.css'
@@ -9,12 +10,16 @@ import './Login.css'
 
 const Login = () => {
   const { signInUsingGoogle } = useAuth()
+  const history = useHistory();
+  const location = useLocation();
+  const redirectUri = location.state?.from || '/home';
   const signIn = () => {
     signInUsingGoogle()
       .then((result) => {
-  
+  history.push(redirectUri)
   })
   }
+  
     return (
         <div className='my-5'>
             <div className="d-grid mb-2 justify-content-center align-items-center text-center">
