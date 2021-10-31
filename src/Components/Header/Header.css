@@ -6,3 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media only screen and (max-width:360px){
+    .header{
+        background-size: 360px;
+        height: 200px;
+    }
+}
