@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import axios from "axios";
+import React, { useEffect, useRef, useState } from "react";
 import { Button, Card, Form } from "react-bootstrap";
 import { useParams } from "react-router";
 import useAuth from "../../Hooks/useAuth";
@@ -13,13 +14,32 @@ const BookingProcess = () => {
             .then((res) => res.json())
             .then((data) => setBooking(data[`${bookingId}` - 1]));
     }, []);
-    const { img, PlaceName, CityName, price, PlaceId, placeDetails } = booking;
+  const { img, PlaceName, CityName, price, PlaceId, placeDetails } = booking;
+  const emailAddress = user.email;
+  const orderData = {
+    img: { img },
+    PlaceName: { PlaceName },
+    CityName: { CityName },
+    emailAddress: {emailAddress}
 
-
+  }
   const handleBookingProcess = (e) => {
     e.preventDefault()
-      console.log(PlaceName,CityName);
+    
+    console.log(orderData);
+    axios.post('http://localhost:5000/orders',orderData)
+        .then(res=>{
+            console.log(res);
+        })
+    
+    
     }
+  
+    
+    
+        
+    
+  
   
     return (
         <div className="d-lg-flex justify-content-center mx-auto w-75 align-items-center">
@@ -32,7 +52,7 @@ const BookingProcess = () => {
           
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder= "Your Email" value= {user?.email} onChange={()=>{}}  />
+              <Form.Control type="email" placeholder= "Your Email" value= {user?.email} onChange={()=>{}} />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Address</Form.Label>
