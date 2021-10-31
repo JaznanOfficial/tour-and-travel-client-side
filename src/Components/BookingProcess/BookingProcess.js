@@ -6,28 +6,28 @@ import useAuth from "../../Hooks/useAuth";
 
 const BookingProcess = () => {
   const { user } = useAuth();
-    const params = useParams();
-    const { bookingId } = params;
-    const [booking, setBooking] = useState([]);
-    useEffect(() => {
-        fetch("https://floating-brushlands-96149.herokuapp.com/places")
-            .then((res) => res.json())
-            .then((data) => setBooking(data[`${bookingId}` - 1]));
-    }, []);
+  const params = useParams();
+  const { bookingId } = params;
+  const [booking, setBooking] = useState([]);
+  useEffect(() => {
+    fetch("https://floating-brushlands-96149.herokuapp.com/places")
+      .then((res) => res.json())
+      .then((data) => setBooking(data[`${bookingId}` - 1]));
+  }, []);
   const { img, PlaceName, CityName, price, PlaceId, placeDetails } = booking;
   const emailAddress = user.email;
   const orderData = {
-    img: { img },
-    PlaceName: { PlaceName },
-    CityName: { CityName },
-    emailAddress: {emailAddress}
-
-  }
+      img,  
+   PlaceName, 
+   CityName, 
+   emailAddress 
+}
+  
   const handleBookingProcess = (e) => {
     e.preventDefault()
     
-    console.log(orderData);
-    axios.post('http://localhost:5000/orders',orderData)
+    
+    axios.post('https://floating-brushlands-96149.herokuapp.com/orders',orderData)
         .then(res=>{
             console.log(res);
         })

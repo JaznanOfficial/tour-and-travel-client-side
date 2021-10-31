@@ -9,7 +9,7 @@ const Service = (props) => {
         <div>
             <Col>
                 <Card className='shadow rounded placeCard'>
-                    <Card.Img variant="top" src={img} height='400px' />
+                    <Card.Img variant="top" src={img} height='300px' />
                     <Card.Body>
                         <Card.Title> <h3>{PlaceName}</h3> </Card.Title>
                         <h4 className="text-secondary">{CityName}</h4>

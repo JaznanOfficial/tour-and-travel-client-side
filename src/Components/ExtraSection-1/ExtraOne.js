@@ -14,7 +14,7 @@ const ExtraOne = () => {
                 <h3 className='text-left'><i class="far fa-heart text-danger"></i>&emsp;&nbsp; Trusted by more than 80,000 customers</h3>
             </div>
             <div className='w-50'>
-            <img src='https://www.pngarts.com/files/11/Elon-Musk-PNG-Image-Background.png' alt="" width='400px' />
+            <img src='https://www.pngarts.com/files/11/Elon-Musk-PNG-Image-Background.png' alt="" width='300px' />
             </div>
         </div>
     );

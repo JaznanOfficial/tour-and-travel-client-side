@@ -7,7 +7,7 @@ import useAuth from '../../Hooks/useAuth'
 
 const Navigation = () => {
   const { user, logOut } = useAuth();
-  console.log(user);
+  
     return (
         <div>
         <Navbar bg="dark" variation='light' expand="lg">

@@ -6,10 +6,10 @@ import './AddNewService.css';
 const AddNewService = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        console.log(data);
+        
         axios.post('https://floating-brushlands-96149.herokuapp.com/addPlaces', data)
         .then(res=>{
-            console.log(res);
+            
         })
     }
     return (
