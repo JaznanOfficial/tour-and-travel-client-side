@@ -4,3 +4,9 @@
     font-weight: 700;
     margin: 0 10px;
 }
+.navbar-toggler-icon{
+    border: 1px solid white;
+    color: white;
+    background-image: url('https://www.clipartmax.com/png/small/36-365828_navbar-toggle-icon-menu-hamburger-png-white.png') !important;
+    background-size: 100px;
+}

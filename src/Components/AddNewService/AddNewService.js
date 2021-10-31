@@ -16,8 +16,8 @@ const AddNewService = () => {
         <div>
             <h1 className='text-danger text-center'>Add a new place to tour next time</h1>
         <div className="d-flex justify-content-center align-items-center add-service">
-            <div className="w-50 me-5 my-3">
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <div className="my-3 d-flex justify-content-center align-items-center">
+            <form onSubmit={handleSubmit(onSubmit)} className='w-25'>
             <input {...register("PlaceName")} placeholder='place name' />
             <input {...register("CityName")} placeholder='city name' />
             <textarea {...register("placeDetails")} placeholder='place details' />

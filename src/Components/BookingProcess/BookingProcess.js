@@ -43,7 +43,7 @@ const BookingProcess = () => {
   
     return (
         <div className="d-lg-flex justify-content-center mx-auto w-75 align-items-center">
-            <div className='w-50 me-5 my-3'>
+            <div className='w-100 me-lg-5 my-3'>
             <Form>
             <Form.Group className="mb-3" >
               <Form.Label>Your Name</Form.Label>
@@ -69,7 +69,7 @@ const BookingProcess = () => {
           </Form>
             </div>
             <div className='my-3 mx-auto'>
-                <Card style={{ width: "30rem" }}>
+                <Card style={{ width: "100%" }}>
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>{PlaceName}</Card.Title>
