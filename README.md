@@ -2,6 +2,11 @@
 
 At first let's see  [my fourth react love](https://travel-and-tour-assignment.web.app/)...bt broken!!!.
 
+* It’s a travel booking site
+* Visitors can see visiting places in Bangladesh. But needed register or log in to place orders
+* It’s a very fast reloadable and one-page application
+
+
 * It was my third react site. it was a lot of hardest than another assignment. You'll see i created a doctor bari site.Because i tried to do different something than others. but i skip something.because ...
 
 * in this site i used home,services,my order and some another router. it was my new experience. i tried to do my best.
